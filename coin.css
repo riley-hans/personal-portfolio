@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(212, 245, 242);
+    font-family: 'Titillium Web', sans-serif;
+    display: flexbox;
+
+
+}
+
+div{
+    text-align: center;
+    padding-top: 10%;
+}
+
+h2{
+    font-size: 30px;
+    text-decoration: underline;
+}
+h3{
+    font-size: 20px;
+}
+button{
+    width: 20%;
+    outline: none;
+}
+
+#flip {
+    height: 200px;
+    width: 200px;
+    background-color: rgba(192, 192, 192, 0.644);
+    border-radius: 50%;
+    outline: none;
+}
+
+.counter{
+    float: left;
+    text-align: center;
+    width: 50%;
+}
+
+a{
+    color: black;
+}
+
+.nav-pills .nav-link.active{
+    background-color: rgba(212, 245, 242,.425);
+    color: black;
+    border: solid 1px black;
+}
+
+.topdiv{
+    margin-top: none;
+    padding-top: 10px;
+}

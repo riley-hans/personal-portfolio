@@ -1,0 +1,124 @@
+/* color pallete #ffffff #00A7E1 #070600 */
+
+
+
+body{
+    background-color:#ffffff;
+    color: #070600;
+    letter-spacing: 3pt;
+}
+
+.bg-light{
+    background-color: #00a7e1!important;
+}
+
+.navbar-light .navbar-brand{
+    color: #070600;
+}
+
+#job{
+    color: #00a7e1;
+}
+
+.introContainer{
+    display: flex;
+}
+
+.firstSection{
+    height: 900px;
+    width: 100%;
+    margin-bottom: 300px;
+}
+
+
+
+#period{
+    font-size: 250px;
+}
+
+
+.intro{
+    padding-top: 80px;
+    font-size: 400px;
+    text-align: center;
+    text-shadow: 2px 3px 4px #00a7e1;
+}
+
+.introSpecifics{
+    font-size: 70px;
+    padding-bottom: 100px;
+    /* letter-spacing: 3pt; */
+}
+
+.experience{
+    width: 70%;
+    display: flex;
+    background-color: pink;
+}
+
+.experienceLine{
+    background-color: aqua;
+}
+
+
+/* Color Game CSS */
+.square{
+    background-color: #00a7e1;
+    width: 30%;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 50%;
+    transition: all .5s;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+}
+#stripe{
+    background-color: white;
+    height: 30px;
+    text-align: center;
+}
+.selected{
+    background-color:#00a7e1;
+    color: white;
+    border: none;
+}
+
+#topSection{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+button{
+    border: none;
+    background-color: white;
+    text-align: center;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 600;
+    transition: all .4s;
+    
+}
+#message{
+    display: inline-block;
+    width: 20%;
+}
+Button:hover{
+    color: white;
+    background-color: #00a7e1;
+}
+
+a {
+    color: black;
+}
+
+.name{
+    display: flex;
+    margin-left: 60%;
+    margin-bottom: 40px;
+    text-align: right;
+    font-size: 50px;
+    /* letter-spacing: 4pt; */
+
+}
+

@@ -1,0 +1,57 @@
+<%- include("partials/header"); -%>
+<!-- Navigation bar -->
+<div class="navbar">
+    <span>
+        <button id="home">Home</button>
+    </span>
+    <span>
+        <select> 
+            <option value="About Me">About Me</option>
+            <option value="sample one">sample one</option>
+            <option value="sample two">sample two</option>
+        </select>
+    </span>
+    <span>
+        <button id="contact">Contact</button>
+    </span>
+</div>
+
+ <!-- Header of Page -->
+ <div class="header">
+ <h1>Riley Hansen</h1>
+ <h3>Fullstack Web Developer</h3>
+
+ <img id =""me src="data:image/png;base64,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" alt="">
+</div>
+<!-- About Me -->
+<div id="about">
+    <h2>About Me</h2>
+    <p>Web development both front end and back end have become a strong passion of mine</p>
+</div>
+
+
+
+
+<div id="footer">
+    <ul class="bottom">
+        <li>Social</li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <ul class="bottom">
+        <li>Email</li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <ul class="bottom">
+        <li>Projects</li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <button>Back To Top</button>
+</div>
+
+<%= include('partials/footer'); =%>
